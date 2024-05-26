@@ -25,7 +25,7 @@
 const props = defineProps<{
   src: string;
   alt?: string;
-  type?: string;
+  type?: "background" | "src";
 }>();
 </script>
 
