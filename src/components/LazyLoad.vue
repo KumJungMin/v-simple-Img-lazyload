@@ -50,6 +50,7 @@ const props = defineProps<{
   background-color: #f0f0f0;
 }
 .lazy {
+  display: inline-block; /* 이미지가 없을 때도, 너비 높이 공간을 차지하도록 */
   width: 100%;
   height: 100%;
   object-fit: cover;
